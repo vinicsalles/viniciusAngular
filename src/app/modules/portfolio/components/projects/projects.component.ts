@@ -15,7 +15,7 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/potfoliovini.jpg',
+      src: 'assets/img/projects/boli.png',
       alt: '',
       title: 'Bolites',
       width: '100px',
