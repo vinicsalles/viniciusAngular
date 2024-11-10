@@ -17,13 +17,25 @@ export class ProjectsComponent {
     {
       src: 'assets/img/projects/potfoliovini.jpg',
       alt: '',
+      title: 'Bolites',
+      width: '100px',
+      height: '51px',
+      description:
+        'Meu mais novo projeto em react, bolites foi criado com o intuito de apresentar o produto de estudantes  de nutrição da faculdade da minha cidade, as tecnologias usadas foram: ReactJS, CSS3, AOS.',
+      links: [
+        { name: 'Conheça o Site', href: 'https://bolites.vercel.app/' },
+      ],
+    },
+    {
+      src: 'assets/img/projects/potfoliovini.jpg',
+      alt: '',
       title: 'Portfolio Vinícius',
       width: '100px',
       height: '51px',
       description:
         'Desenvolvi o meu primeiro portifolio com tecnologias básicas, durante o começo de minha jornada como programador, as tecnologias utilizadas foram: html5, css3, javascript.',
       links: [
-        { name: 'Conheça o Blog', href: 'https://viniciusalles.vercel.app/' },
+        { name: 'Conheça o Portifolio', href: 'https://viniciusalles.vercel.app/' },
       ],
     },
     {
